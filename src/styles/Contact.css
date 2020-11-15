@@ -1,0 +1,185 @@
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p_tag{
+    font-size: 20px;
+}
+
+.contact_box {
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text_area {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 3 */
+.button-3 {
+    background:black;
+    color: #fff;
+}
+.button-3:hover {
+    background:rgba(10,10,10,0.83);
+}
+.button-3:active {
+    background: rgba(10,10,10,0.73);
+    top: 2px;
+}
+.button-3>.fa {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 140%;
+    width: 60px;
+}
+.button-3>.fa:before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Button 3e */
+.button-3e {
+    padding: 10px 80px 10px 40px;
+    display: block;
+
+    overflow: hidden;
+}
+.button-3e>.fa {
+    left: auto;
+    right: 10px;
+    z-index: 2;
+}
+.button-3e:after {
+    width: 30%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    right: 0;
+    top: 0;
+    margin: -5px 0 0 -5px;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform-origin: 0 0;
+    -moz-transform: rotate(-20deg);
+    -ms-transform-origin: 0 0;
+    -ms-transform: rotate(-20deg);
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+}
+.button-3e:hover:after {
+    width: 35%;
+}
+
+
+.btn_ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon_fb {
+    font-size: 40px;
+    color: black;
+    margin-left: 710px;
+}
+.icon_fb:hover {
+    color:rgba(10,10,10,0.87)
+}
+
+.icon_whatsapp {
+    font-size: 40px;
+    color: black;
+    margin-left: 50px;
+}
+.icon_whatsapp:hover {
+    color:rgba(10,10,10,0.87)
+}
+
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: grey;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+.errorMessage {
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    .space {
+        padding-top: 20px;
+    }
+    .icon_fb {
+        margin-left: 140px;
+    }
+    .popup{
+        width: 70%;
+      }
+}
+

@@ -1,0 +1,29 @@
+.about_us {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.deal_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unbrako_img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apl_img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
