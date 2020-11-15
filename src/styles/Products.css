@@ -1,6 +1,7 @@
 .prods {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Goldman', cursive;
+    font-weight: 900;
 }
 
   .card-block{
@@ -56,4 +57,10 @@
   }
   .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .prods {
+      font-size: 35px;
+    }
   }

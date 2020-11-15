@@ -26,17 +26,17 @@ export class Products extends Component {
               items: 3,
             },
             tablet: {
-              breakpoint: { max: 1024, min: 464 },
+              breakpoint: { max: 1024, min: 600 },
               items: 2,
             },
             mobile: {
-              breakpoint: { max: 400, min: 0 },
+              breakpoint: { max: 600, min: 0 },
               items: 1,
             },
           };
         return (
             <div id="products">
-                <h1 className="prods">OUR PRODUCTS</h1>
+                <h1 className="prods">Our Products</h1>
                 <Carousel
                     responsive={responsive}
                     autoPlay="true"

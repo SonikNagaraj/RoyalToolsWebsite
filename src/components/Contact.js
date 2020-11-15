@@ -56,6 +56,7 @@ export class Contact extends Component {
           .then((result) => {
               console.log(result.text);
               alert('Thankyou! Your Query has been submitted successfully :)')
+              document.getElementById("myBtn").disabled = true;
           }, (error) => {
               console.log(error.text);
           });
@@ -134,7 +135,7 @@ export class Contact extends Component {
             break;
         }
     
-        this.setState({ formErrors, [name]: value }, () => console.log(this.state));
+        this.setState({ formErrors, [name]: value });
       };
     render() {
         const { formErrors } = this.state;
@@ -154,8 +155,7 @@ export class Contact extends Component {
                         <div className="col-sm-4 col-md-4 col-xs-4">
                             <h2><CallIcon fontSize="large" />  Call us at</h2>
                             <a className="p_tag" href="tel:+919994578699">+91-9994578699</a> <br />
-                            <a className="p_tag" href="tel:+919600934969">+91-9600934969</a> <br />
-                            <a className="p_tag" href="tel:0422-4384699">0422-4364699</a>
+                            <a className="p_tag" href="tel:+919600934969">+91-9600934969</a>
                             <br />
                             <br />
                         </div>

@@ -21,7 +21,7 @@ export class Caro extends Component {
 
                         <div className="carousel-item active">
                             <div className="view">
-                                <video className="video-fluid first_img" autoPlay loop muted>
+                                <video className="video-fluid first_img" playsinline autoPlay loop muted>
                                     <source src={first} type="video/mp4" />
                                 </video>
                                 <div className="carousel-caption">
