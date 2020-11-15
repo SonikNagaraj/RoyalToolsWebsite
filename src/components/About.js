@@ -21,7 +21,7 @@ export class About extends Component {
                     <div className="row">
                         <div className="col-sm-9 col-md-9 col-xs-9">
                             <h2 className="about_us">About us</h2>
-                            <p style={{paddingLeft:"15px"}}  >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p className="about_content">Royal Tools and Hardwares pioneering since 1995 is directed by <strong>Mr.N Nagaraj</strong> who is proficient in trading customizable products. It is an ISO certified company that has been endeavoured in rendering business for 25 years now. It is always been our first priority to bring in the best and the latest products with the most competitive prices for our valued customers. We are Authorised Distributors and Stockists of many reputed brands and this site is an overview of the varied range of products we deal in.</p>
                         </div>
                         <div className="col-sm-3 col-md-3 col-xs-3">
                             <ModalImage

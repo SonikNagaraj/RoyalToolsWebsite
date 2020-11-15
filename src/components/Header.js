@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/Header.css'
 import logo from '../images/logo.jpg'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 class Header extends Component {
     componentDidMount() {
         window.addEventListener("scroll", this.handleScroll);

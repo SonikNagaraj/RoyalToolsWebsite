@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/Footer.css'
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBContainer, MDBFooter } from "mdbreact";
 export class Footer extends Component {
     render() {
         return (
