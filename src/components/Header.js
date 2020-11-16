@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/Header.css'
-import logo from '../images/logo.jpg'
+import logo from '../images/logo_new.jpg'
 import { Link } from "react-scroll";
 class Header extends Component {
     componentDidMount() {

@@ -217,8 +217,9 @@ export class Contact extends Component {
                         
             
                 </div>
+                <br />
                 <div className="icons">
-                    <br />
+                    
                     <a href="https://www.facebook.com/Royal-tools-and-hardwares-107428741185009/" target="_blank" rel="noreferrer" >
                         <i className="fab fa-facebook-f icon_fb"></i>
                     </a>

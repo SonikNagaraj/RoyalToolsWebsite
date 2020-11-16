@@ -124,7 +124,7 @@ h2 {
 .icon_fb {
     font-size: 40px;
     color: black;
-    margin-left: 710px;
+    /* margin-left: 710px; */
 }
 .icon_fb:hover {
     color:rgba(10,10,10,0.87)
@@ -133,13 +133,15 @@ h2 {
 .icon_whatsapp {
     font-size: 40px;
     color: black;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .icon_whatsapp:hover {
     color:rgba(10,10,10,0.87)
 }
 
-
+.icons {
+    text-align: center;
+}
 .popup {
     margin: 70px auto;
     padding: 20px;
@@ -180,9 +182,7 @@ h2 {
     .space {
         padding-top: 20px;
     }
-    .icon_fb {
-        margin-left: 140px;
-    }
+
     .popup{
         width: 70%;
       }
