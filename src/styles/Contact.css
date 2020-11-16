@@ -1,6 +1,10 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RENFREWN.TTF)
+  }
+
 h2 {
-    font-family: 'Goldman', cursive;
-    font-weight: 900;
+    font-family: myFirstFont;
 }
 
 .p_tag{

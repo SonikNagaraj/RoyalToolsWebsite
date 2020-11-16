@@ -26,11 +26,16 @@
     height: 55px;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RENFREWN.TTF)
+}
+
 .heading_name {
     color: white;
-    font-family: 'Lobster Two', cursive;
+    /* font-family: 'Lobster Two', cursive; */
     font-size:210%;
-    
+    font-family: myFirstFont;
 }
 
 .heading_name_sticky {
@@ -48,8 +53,9 @@
 .nav-item {
     color: white;
     padding-right: 15px;
-    font-family: 'Lobster Two', cursive;
-    font-size: 20px;
+    /* font-family: 'Lobster Two', cursive; */
+    font-size: 18px;
+    font-family: myFirstFont;
 }
 .nav-item:hover {
     color: grey;

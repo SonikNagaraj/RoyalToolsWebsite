@@ -1,6 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RENFREWN.TTF)
+}
+
 .about_us {
-    font-family: 'Goldman', cursive;
-    font-weight: 900;
+    font-family: myFirstFont;
+    font-weight: 100;
 }
 
 .deal_img {
@@ -31,4 +36,5 @@
 .about_content {
     padding-left: 15px;
     font-size: 20px;
+
 }

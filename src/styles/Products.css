@@ -1,7 +1,11 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/RENFREWN.TTF)
+}
+
 .prods {
     text-align: center;
-    font-family: 'Goldman', cursive;
-    font-weight: 900;
+    font-family: myFirstFont;
 }
 
   .card-block{
