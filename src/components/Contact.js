@@ -52,7 +52,7 @@ export class Contact extends Component {
         if (formValid(this.state)) {
           e.preventDefault();
     
-          emailjs.sendForm('service_lcv9hd2', 'template_tw81vti', e.target, 'lCpBpTp6q2RiNUJLg')
+          emailjs.sendForm('service_lcv9hd2', 'template_g0378zs', e.target, 'lCpBpTp6q2RiNUJLg')
           .then((result) => {
               console.log(result.text);
               alert('Thankyou! Your Query has been submitted successfully :)')
