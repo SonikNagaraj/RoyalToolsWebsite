@@ -223,7 +223,7 @@ export class Contact extends Component {
                     <a href="https://www.facebook.com/Royal-tools-and-hardwares-107428741185009/" target="_blank" rel="noreferrer" >
                         <i className="fab fa-facebook-f icon_fb"></i>
                     </a>
-                    <a href="https://wa.me/9003745309" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/9600934969" target="_blank" rel="noreferrer">
                         <i className="fab fa-whatsapp icon_whatsapp"></i>
                     </a>
                 </div>
