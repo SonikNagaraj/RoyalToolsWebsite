@@ -21,7 +21,7 @@ export class About extends Component {
                     <div className="row">
                         <div className="col-sm-9 col-md-9 col-xs-9">
                             <h2 className="about_us">About us</h2>
-                            <p className="about_content">Royal Tools and Hardwares pioneering since 1995 is directed by <strong>Mr.N Nagaraj</strong> who is proficient in trading customizable products. It is an ISO certified company that has been endeavoured in rendering business for 25 years now. It is always been our first priority to bring in the best and the latest products with the most competitive prices for our valued customers. We are authorised distributors and stockists of many reputed brands and this site is an overview of the varied range of products we deal in. We also offer shipping around the globe.<br /><strong>GST No.33ADYPV1105G1ZF</strong></p>
+                            <p className="about_content">Royal Tools and Hardwares pioneering since 1995 is directed by <strong>Mr.N Nagaraj</strong> who is proficient in trading customizable products. It is an ISO certified company that has been endeavoured in rendering business for 25 years now. It is always been our first priority to bring in the best and the latest products with the most competitive prices for our valued customers. We are authorised distributors and stockists of many reputed brands and this site is an overview of the varied range of products we deal in. <strong>We also offer shipping around the globe.</strong><br /><strong>GST No.33ADYPV1105G1ZF</strong></p>
                         </div>
                         <div className="col-sm-3 col-md-3 col-xs-3">
                             <ModalImage
